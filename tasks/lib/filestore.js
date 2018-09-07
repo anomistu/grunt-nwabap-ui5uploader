@@ -79,7 +79,7 @@ FileStore.prototype._sendRequest = function (oRequest, fnRequestCallback) {
     }
 
     oRequest.strictSSL(me._oOptions.conn.useStrictSSL);
-    
+
     if (me._oOptions.conn.proxy) {
         oRequest.proxy(me._oOptions.conn.proxy);
     }
